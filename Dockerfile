@@ -3,10 +3,9 @@ ARG DEBIAN_FRONTEND=noninteractive
 WORKDIR /quake3e
 
 # Install prerequisites
-RUN  apt-get update
-RUN apt-get install -y curl gcc git libc6-dev make pkg-config
+RUN apt-get update
+RUN apt-get install -y gcc git libc6-dev make pkg-config
 
-RUN apt-get install -y libcurl4-gnutls-dev
 
 # Get and build
 RUN git clone https://github.com/ec-/Quake3e.git quake3e 
