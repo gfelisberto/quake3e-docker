@@ -1,5 +1,7 @@
 # quake3e-docker
 
+This project will build [Quake3e](https://github.com/ec-/Quake3e) from source and start the server.
+This was tested on ARM but should work in other architectures.
 
 Build the image with:
 
